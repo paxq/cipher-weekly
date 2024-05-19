@@ -7,11 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    video {
+      width: 30%;
+      height: 80%;
+    }
 
-  <p class="message"> Nothing here yet. :( </p>
+    #p1 {
+      transform: translateX(-50%);
+    }
+    #p2 {
+      transform: translateX(+50%);
+    }
+    #m2 {
+      transform: translate(-50%, +250px);
+    }
+  </style>
 
-  <video controls>
-    <source src="cipher-weekly-1.mp4" type="video/mp4">
+  <p class="message"> <--   First half</p>
+  <p class="message" id="m2"> Second half   --> </p>
+
+  <video id="p1" controls>
+    <source src="cipher-weekly-1-p1.mp4" type="video/mp4">
+  </video>
+  <video id="p2" controls>
+    <source src="cipher-weekly-1-p2.mp4" type="video/mp4">
   </video>
   
 </body>

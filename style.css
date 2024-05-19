@@ -23,7 +23,7 @@ body {
   align-items: center;
 
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(43, 48, 53);
+  color: white;
 
   padding: 5px;
   margin: 50px;
@@ -61,17 +61,4 @@ body {
 
   position: absolute;
   transform: translate(0%, 35px);
-}
-
-/* TEMPORARY CIPHERS */
-
-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  width: 30%;
-  height: 80%
 }
